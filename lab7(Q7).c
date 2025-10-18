@@ -13,6 +13,7 @@ int main(){
 		if(text[i]>='0' && text[i]<='9'){
 			printf("%c", text[i]);
 			digit[j]=text[i]-'0';
+			//-'0' to convert the string to an integer so it can be stored and added//
 			j++;
 		}
 		i++;
@@ -25,3 +26,4 @@ int main(){
 	
 	
 }
+
